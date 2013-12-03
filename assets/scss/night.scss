@@ -1,0 +1,21 @@
+@import 'style.scss';
+
+html {
+  color: lighten($gray, 15%);
+
+  body {
+    background-color: darken($gray, 55%);
+  }
+}
+
+.site-title a {
+  color: $gray;
+}
+
+.site-nav {
+  border-color: darken($gray, 40%);
+}
+
+.site-footer {
+  background-color: darken($gray, 60%);
+}

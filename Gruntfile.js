@@ -10,7 +10,8 @@ module.exports = function(grunt) {
           compass: true
         },
         files: {
-          'assets/css/style.css' : 'assets/scss/style.scss'
+          'assets/css/style.css' : 'assets/scss/style.scss',
+          'assets/css/night.css' : 'assets/scss/night.scss'
         }
       }
     },
@@ -23,7 +24,7 @@ module.exports = function(grunt) {
       },
       no_dest: {
         // File to output
-        src: 'assets/css/style.css'
+        src: ['assets/css/style.css', 'assets/css/night.css']
       },
     },
 

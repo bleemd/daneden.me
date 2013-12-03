@@ -931,4 +931,24 @@ html body {
   list-style: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+html {
+  color: #edefef;
+}
+
+html body {
+  background-color: #373d40;
+}
+
+.site-title a {
+  color: #c4c9cc;
+}
+
+.site-nav {
+  border-color: #5b6469;
+}
+
+.site-footer {
+  background-color: #2c3032;
+}
+
+/*# sourceMappingURL=night.css.map */
